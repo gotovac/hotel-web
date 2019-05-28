@@ -1,0 +1,88 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dizajn.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="js/oglasi.js"></script>
+    
+    <title>Projekt Hotel</title>
+    <script type="text/javascript">
+    window.cookieconsent_options = {"message":"Ova stranica koristi kolacice!","dismiss":"OK","learnMore":"","link":null,"theme":"dark-floating"};
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--       Banner-->
+        <header class="banner">
+            <h1 class="naslov">Projekt Hotel</h1>
+        </header>
+        <!--Navigacija-->
+        <nav class="main">
+            <ul>
+                <li><a href="index.php">Početna</a></li>
+                <li><a href="prijava.php">Prijava</a></li>
+                <li><a href="registracija.php">Registracija</a></li>
+                <li><a href="popisHotela.php">Popis hotela</a></li>
+                <li><a href="popisSoba.php">Popis soba</a></li>
+                <li><a href="dokumentacija.html">Dokumentacija</a></li>
+                <li><a href="O_Autoru.html">O autoru</a></li>
+            </ul>
+        </nav>
+        <!--Glavni kontejner-->
+                    <section class="container">
+                    <h2>Opis projektnog zadatka</h2>
+           <div>Kao projektni zadatak iz kolegija Web dizajna i programiranja bilo je zadano samostalno izdraditi stranicu/sustav koja bi imala mogucnosti rezerviranja smjestaja u hotelima te
+                opcenito pracenje rada vise hotela. Trebalo je implementirati vise uloga od kojih bi svaka imala svoja prava i mogucnosti. Uloge koje su zadane su bile eregistrirani korisnik/gost, registrirani korisnik, moderator te administrator. Za pocetak, uloga gosta bi trebala imati dopusten pogled na aktivne oglase koje bi se vrtili na stranicama sustava, kao i mogucnost pregleda hotela i soba, te mogucnost rezerviranja sobe uz email adresu. Registrirani korisnik je imao pravo slati zahtjeve za blokiranje nezeljenih/neprimjerenih oglasa, ali mogao je i slati zahtjev za predavanje vlastitog oglasa koji bi popunio odrednu lokaciju na stranici ovisno o izabranoj vrsti oglasa. Moderator ima mogucnosti uvodenja novih soba u hotelima za koje je zaduzen, te moze unositi rezervacije za registrirane korisnike kao i odbijati i prihvacati zahtjeve za oglase. Na kraju, administrator ima maksimalne ovlasti, sto znaci da moze sve kao i ostali korisnici te jos ima mogucnost kreiranje hotela, upravljanjem korisnicima i pristup odredenim statistikama.
+             </div>
+             
+             <h2>Opis projektnog rjesenja</h2>
+             <div>Rjesenje projekta nije u potpunosti realizirano. Nedostaju pojedini djelovi kod rada sustava poput pomaka vremena, kao i nekoliko statistika i mogucnosti kod administratora i moderatora te nedostaje odredene fleksibilnosti kod karakteristika oglasa kao sto su zadano trajanje i brzina izmjene koje su napravljene na nacin da su uvedene staticne vrijednosti.</div>
+             
+             <h2>ERA Dijagram</h2>
+             <img src="img/era.PNG" alt="">
+             
+             <h2>Popis i opis skripata i mapa mjesta</h2>
+             <div></div>
+             
+             <h2>Popis korištenih tehnologija i alata</h2>
+             <p> 
+      
+            <li>JQuery</li>
+            <li>JavaScript</li>
+            <li>php</li>
+            <li>MySQL Workbench</li>
+            <li>Brackets</li>
+            <li>XAMPP</li>
+            <li>FileZilla</li>
+
+              </p>
+              <h2>Popis i opis vanjskih modula/biblioteka</h2>
+              <p> 
+      
+               <li>Google Fonts</li>
+               <li>Google reCaptcha</li>
+               <li>Google Translate API</li>
+               <li>JQuery</li>
+               <li>Datatables</li>
+                
+              </p>
+              
+        </section>
+        
+        <!--        Footer-->
+        <footer>
+            <p>Luka Gotovac &copy; 2018</p>
+        </footer>
+    </div>
+</body>
+
+</html>

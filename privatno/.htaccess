@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Prijava"
+AuthUserFile /var/www/WebDiP/2017_projekti/WebDiP2017x046/privatno/.htpasswd
+Require valid-user
